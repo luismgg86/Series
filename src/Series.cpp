@@ -1,17 +1,17 @@
 #include "Series.h"
-
+//Definicion del contructor
 Series::Series(int n){
 	this->n=n;
 }
-
-int Series::fibonacciIt(){
+//Fibonacci iterativo
+double Series::fibonacciIt(){
 
 	if (this->n < 2)
 		return n;
 
-	int a=0;
-	int b=1;
-	int c=0;
+	double a=0;
+	double b=1;
+	double c=0;
 
 	for (int i = 2; i <= this->n; ++i)
 	{
@@ -21,9 +21,31 @@ int Series::fibonacciIt(){
 	}
 	return c;
 }
-
-int Series::fibonacciRec(int n){
+//Fibonacci recursivo
+double Series::fibonacciRec(double n){
 	if (n < 2)
 		return n;
 	return fibonacciRec(n-1)+fibonacciRec(n-2);
+}
+//Factorial iterativo
+double Series::factorialIt(){
+
+	if(this->n < 2)
+		return 1;
+
+	double a=1;
+
+	for (int i = 2; i <= this->n; ++i)
+	{
+		a=a*i;
+	}
+	return a;
+}
+//Factorial recursivo
+double Series::factorialRec(double n){
+
+	if (n < 2)
+		return 1;
+
+	return factorialRec(n-1)*n;
 }
