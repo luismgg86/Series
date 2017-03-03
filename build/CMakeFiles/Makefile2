@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/Series
+CMAKE_SOURCE_DIR = /home/luis/Escritorio/Series
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/Series
+CMAKE_BINARY_DIR = /home/luis/Escritorio/Series/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/Series.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/luis/Series
 CMakeFiles/Series.dir/all:
 	$(MAKE) -f CMakeFiles/Series.dir/build.make CMakeFiles/Series.dir/depend
 	$(MAKE) -f CMakeFiles/Series.dir/build.make CMakeFiles/Series.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/luis/Series/CMakeFiles  1 2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/luis/Escritorio/Series/build/CMakeFiles  1 2
 	@echo "Built target Series"
 .PHONY : CMakeFiles/Series.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/Series.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Series.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Series/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Escritorio/Series/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Series.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Series/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Escritorio/Series/build/CMakeFiles 0
 .PHONY : CMakeFiles/Series.dir/rule
 
 # Convenience name for target.

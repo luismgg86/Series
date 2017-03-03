@@ -1,6 +1,6 @@
 #include "Series.h"
 //Definicion del contructor
-Series::Series(int n){
+Series::Series(double n){
 	this->n=n;
 }
 //Fibonacci iterativo

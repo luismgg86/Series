@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/Series
+CMAKE_SOURCE_DIR = /home/luis/Escritorio/Series
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/Series
+CMAKE_BINARY_DIR = /home/luis/Escritorio/Series/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Series.dir/depend.make
@@ -50,18 +50,18 @@ include CMakeFiles/Series.dir/progress.make
 include CMakeFiles/Series.dir/flags.make
 
 CMakeFiles/Series.dir/src/Series.cpp.o: CMakeFiles/Series.dir/flags.make
-CMakeFiles/Series.dir/src/Series.cpp.o: src/Series.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/luis/Series/CMakeFiles $(CMAKE_PROGRESS_1)
+CMakeFiles/Series.dir/src/Series.cpp.o: ../src/Series.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/luis/Escritorio/Series/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Series.dir/src/Series.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Series.dir/src/Series.cpp.o -c /home/luis/Series/src/Series.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Series.dir/src/Series.cpp.o -c /home/luis/Escritorio/Series/src/Series.cpp
 
 CMakeFiles/Series.dir/src/Series.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Series.dir/src/Series.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/luis/Series/src/Series.cpp > CMakeFiles/Series.dir/src/Series.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/luis/Escritorio/Series/src/Series.cpp > CMakeFiles/Series.dir/src/Series.cpp.i
 
 CMakeFiles/Series.dir/src/Series.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Series.dir/src/Series.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/luis/Series/src/Series.cpp -o CMakeFiles/Series.dir/src/Series.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/luis/Escritorio/Series/src/Series.cpp -o CMakeFiles/Series.dir/src/Series.cpp.s
 
 CMakeFiles/Series.dir/src/Series.cpp.o.requires:
 .PHONY : CMakeFiles/Series.dir/src/Series.cpp.o.requires
@@ -73,18 +73,18 @@ CMakeFiles/Series.dir/src/Series.cpp.o.provides: CMakeFiles/Series.dir/src/Serie
 CMakeFiles/Series.dir/src/Series.cpp.o.provides.build: CMakeFiles/Series.dir/src/Series.cpp.o
 
 CMakeFiles/Series.dir/src/main.cpp.o: CMakeFiles/Series.dir/flags.make
-CMakeFiles/Series.dir/src/main.cpp.o: src/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/luis/Series/CMakeFiles $(CMAKE_PROGRESS_2)
+CMakeFiles/Series.dir/src/main.cpp.o: ../src/main.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/luis/Escritorio/Series/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Series.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Series.dir/src/main.cpp.o -c /home/luis/Series/src/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Series.dir/src/main.cpp.o -c /home/luis/Escritorio/Series/src/main.cpp
 
 CMakeFiles/Series.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Series.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/luis/Series/src/main.cpp > CMakeFiles/Series.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/luis/Escritorio/Series/src/main.cpp > CMakeFiles/Series.dir/src/main.cpp.i
 
 CMakeFiles/Series.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Series.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/luis/Series/src/main.cpp -o CMakeFiles/Series.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/luis/Escritorio/Series/src/main.cpp -o CMakeFiles/Series.dir/src/main.cpp.s
 
 CMakeFiles/Series.dir/src/main.cpp.o.requires:
 .PHONY : CMakeFiles/Series.dir/src/main.cpp.o.requires
@@ -123,6 +123,6 @@ CMakeFiles/Series.dir/clean:
 .PHONY : CMakeFiles/Series.dir/clean
 
 CMakeFiles/Series.dir/depend:
-	cd /home/luis/Series && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/Series /home/luis/Series /home/luis/Series /home/luis/Series /home/luis/Series/CMakeFiles/Series.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luis/Escritorio/Series/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/Escritorio/Series /home/luis/Escritorio/Series /home/luis/Escritorio/Series/build /home/luis/Escritorio/Series/build /home/luis/Escritorio/Series/build/CMakeFiles/Series.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Series.dir/depend
 

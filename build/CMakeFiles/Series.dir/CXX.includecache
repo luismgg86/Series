@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/luis/Series/src/main.cpp
-Series.h
-/home/luis/Series/src/Series.h
-
-include/Series.h
+../include/Series.h
 iostream
 -
+
+/home/luis/Escritorio/Series/src/Series.cpp
+Series.h
+/home/luis/Escritorio/Series/src/Series.h
 

@@ -1,1 +1,1 @@
-/home/luis/Series/CMakeFiles/Series.dir
+/home/luis/Escritorio/Series/build/CMakeFiles/Series.dir
